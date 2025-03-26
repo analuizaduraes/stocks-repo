@@ -32,7 +32,7 @@ export function Dashboard({ children }: DashboardProps) {
         </div>
       </header>
       <div className="flex flex-1">
-        <aside className="hidden w-[240px] flex-col border-r bg-muted/40 md:flex">
+        <aside className="hidden w-[240px] flex-col border-r md:flex">
           <nav className="grid gap-2 p-4 text-sm">
             <Link href="/" className="flex items-center gap-3 rounded-md bg-primary px-3 py-2 text-primary-foreground">
               <Home className="h-4 w-4" />
